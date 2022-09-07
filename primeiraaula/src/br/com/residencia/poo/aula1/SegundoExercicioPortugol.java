@@ -1,0 +1,26 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class SegundoExercicioPortugol {
+
+    
+	public static void main(String[] args) {
+
+		Scanner ler = new Scanner(System.in);
+
+        String nome;
+        
+        System.out.printf("Diga seu nome: ");
+        nome = ler.nextLine();
+        System.out.printf("Olá, " + nome);
+        
+        ler.close();
+        }
+
+}
+
+
+
+
+

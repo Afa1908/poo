@@ -1,0 +1,48 @@
+package br.com.residencia.poo.aula1;
+
+
+
+import java.util.Scanner;
+
+public class nom {
+	
+
+	public static void main(String[] args) {
+		Scanner text = new Scanner(System.in);
+		
+
+     int paoFrances;
+     int broaDeMilho;
+     double valorDoFrances = 0.50, valorDaBroa = 5.00, saldoDoDia, guardar;
+  
+    
+     System.out.println( "Quantidade de pão frânces: ");
+      paoFrances = text.nextInt();
+      
+      System.out.println( "Quantidade de Broa de milho : ");
+      broaDeMilho = text.nextInt();
+      
+      
+      saldoDoDia =  paoFrances * valorDoFrances;
+      System.out.println( "Seu saldo do dia do pão frânces foi de R$: " + saldoDoDia );
+      
+      
+      saldoDoDia =  broaDeMilho * valorDaBroa;
+      System.out.println( "Seu saldo do dia da Broa de milho foi de R$: " + saldoDoDia);
+    		  
+    
+    		  
+     guardar = saldoDoDia * 0.1;
+     System.out.println( "\nDinheiro a ser guardado R$ " + guardar);
+      
+      
+     
+     
+
+	}
+
+
+
+	}
+
+

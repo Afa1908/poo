@@ -1,0 +1,21 @@
+package br.com.residencia.poo.aula3;
+
+public class MetodoSemestre {
+
+	private int gastosAbril = 10000;
+	private int gastosMaio = 10000;
+	private int gastosJunho = 10000;
+	private int soma;
+	
+	public MetodoSemestre(int soma) {
+		this.setSoma(soma + gastosAbril + gastosMaio + gastosJunho);
+	}
+
+	public int getSoma() {
+		return soma;
+	}
+
+	public void setSoma(int soma) {
+		this.soma = soma;
+	}
+}

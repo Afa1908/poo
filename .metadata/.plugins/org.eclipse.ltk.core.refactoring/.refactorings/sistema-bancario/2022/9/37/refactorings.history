@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;br.com.poo.sistemabancario.contas.Contas.saldo&apos; in &apos;br.com.poo.sistemabancario.contas.Contas&apos;&#x0D;&#x0A;- Original project: &apos;sistema-bancario&apos;&#x0D;&#x0A;- Original element: &apos;br.com.poo.sistemabancario.contas.Contas.saldo&apos;&#x0D;&#x0A;- Getter method name: &apos;getSaldo&apos;&#x0D;&#x0A;- Setter method name: &apos;setSaldo&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;saldo&apos;" flags="589830" getter="getSaldo" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;br.com.poo.sistemabancario.contas{Contas.java[Contas^saldo" insertion="9" setter="setSaldo" stamp="1662490762763" version="1.0" visibility="1"/>
+</session>

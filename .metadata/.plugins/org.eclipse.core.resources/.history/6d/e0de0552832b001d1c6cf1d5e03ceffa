@@ -1,0 +1,19 @@
+package br.com.poo.principal;
+
+import br.com.poo.contas.Contas;
+
+public class Principal {
+	
+    public static void main(String[] args) {
+    	
+        Contas minhaConta = new Contas();
+
+        minhaConta.titular = "Pedro";
+        minhaConta.saldo = 1000.0;
+        minhaConta.numero = 123;
+        System.out.println("Saldo atual: " +
+        minhaConta.saldo + "Nome do titular:" + minhaConta.titular);
+
+        
+    }
+}

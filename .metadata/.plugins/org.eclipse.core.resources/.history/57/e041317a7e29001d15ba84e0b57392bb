@@ -1,0 +1,24 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class TerceiraExercicio {
+
+
+	  @SuppressWarnings("resource")
+	Scanner ler = new Scanner(System.in);
+
+      for (notas = 0; notas <= 2; notas ++) {
+      System.out.println("Qual é a sua idade: ");
+      notas = ler.nextInt();
+
+
+	}
+
+}
+
+
+
+
+
+

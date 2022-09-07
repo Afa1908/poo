@@ -1,0 +1,19 @@
+package br.com.residencia.poo.aula3;
+
+
+public class BalancoTrimestral {
+
+	
+	public static void main(String[] args) {
+		
+		int gastosjaneiro = 15000;
+		int gastosfevereiro = 23000;
+		int gastosmarco = 17000;
+		int gastostrimestral = gastosjaneiro + gastosfevereiro + gastosmarco;
+		
+		MetodoTrimestral soma = new MetodoTrimestral(gastostrimestral);
+		
+		System.out.println("A soma dos gastos trimestrais da empresa é, " + gastostrimestral);
+	}
+
+}

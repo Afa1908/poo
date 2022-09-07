@@ -1,0 +1,43 @@
+package br.com.residencia.poo.aula3;
+
+public class teste {
+
+}
+Por exemplo se você tem uma class Animal sabe que todo animal come, sendo que Cães por exemplo comem ração e Tigres carne. Você pode chamar o método comer nessas 2 classes mesmo sabendo que elas se comportam diferentemente.
+
+
+public class Animal {
+     public void comer() {
+          System.out.println( "Animal Comendo..." );
+     }
+}
+
+
+public class Cao  extends Animal {
+     public void comer() {
+          System.out.println( "Cão Comendo..." );
+     }
+}
+
+
+public class Tigre extends Animal {
+     public void comer() {
+          System.out.println( "Tirgre Comendo..." );
+     }
+}
+no caso a sua chamado de método polimorfico ficaria assim
+
+
+publci class Test {
+
+  public void fazerAnimalComer( Animal animal ) {
+       animal.comer();
+  }
+
+  public static void main( String[] args ) {
+       Test t = new Test();
+        t.fazerAnimalComer( new Animal() );
+        t.fazerAnimalComer( new Cao() );
+        t.fazerAnimalComer( new Trigre() );
+   }
+}

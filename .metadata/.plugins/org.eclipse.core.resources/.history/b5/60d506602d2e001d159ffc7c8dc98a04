@@ -1,0 +1,18 @@
+package br.com.residencia.poo.aula3;
+
+public class MetodoTrimenstral {
+
+	public String soma;
+	
+	
+	public int soma(int valor) {
+		
+			soma = gastosjaneiro + gastosfevereiro + gastosmarco;
+		
+			 return soma;
+		
+	
+
+	}
+
+}

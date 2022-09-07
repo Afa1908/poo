@@ -1,0 +1,24 @@
+package br.com.residencia.poo.aula3;
+
+public class ClasseSoma {
+
+	int gastosjaneiro; 
+	int gastosfevereiro;
+	int gastosmarco; 
+	
+	
+	  public int soma(int a, int b, int c)
+	    {
+	 
+	        // Soma os valores.
+	        int soma = a + b + c;
+	 
+	        // Retorna o valor da soma.
+	        return soma;
+	    }
+
+
+
+	}
+
+

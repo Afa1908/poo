@@ -1,0 +1,28 @@
+package br.com.residencia.poo.aula3;
+
+public class MetodoTrimenstral {
+
+	private int soma;
+	
+	
+	  public int soma(int a, int b, int c)
+	    {
+	 
+	        // Adding two integer value
+	        soma = a + b + c;
+	 
+	        // Returning summation of two values
+	        return soma;
+	    }
+
+
+	public MetodoTrimenstral(int MetodoTrimenstral) {
+		
+		this.soma = MetodoTrimenstral;
+	}
+	
+	
+
+	}
+
+

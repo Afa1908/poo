@@ -1,0 +1,37 @@
+package br.com.poo.sistemabancario.contas;
+
+public class Contas {
+
+	public int numero;
+	public String titular;
+	public double saldo;
+
+	public boolean sacar(double valor) {
+        if (this.saldo < valor) {
+        	System.out.println("Saldo Insuficiente!");
+            return false;
+        } else {
+            double novoSaldo = this.saldo - valor;
+            this.saldo = novoSaldo;
+
+            return true;
+        } 
+        
+        
+        public boolean depositar( double depositar ){
+        	System.out.println("Saldo Insuficiente!");
+        	this.saldo += saldo;
+            return false;
+            
+        } else {
+            double novoSaldo = this.saldo - valor;
+            this.depositar = novoSaldo;
+
+            return true;
+        	//double novoSaldo = this.saldo + depositar;
+           // this.saldo = novoSaldo;
+        
+            
+        }
+    }
+}

@@ -1,0 +1,48 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class TerceiraExercicio {
+
+
+	  @SuppressWarnings("resource")
+	Scanner ler = new Scanner(System.in);
+
+      for (notas = 0; notas <= 2; notas ++) {
+      System.out.println("Qual é a sua idade: ");
+      notas = ler.nextInt();
+
+
+	}
+
+}
+
+
+
+
+
+/*programa {
+funcao inicio() {
+real nota, totalNotas = 0.0, media
+cadeia disciplina, nome
+
+escreva("Digite seu nome: ")
+leia(nome)
+limpa()
+escreva("Digite sua disciplina: ")
+leia(disciplina)
+limpa()
+//escreva("Digite sua primeira nota: \n")
+//leia(nota1)
+//escreva("Digite sua segunda nota: \n")
+//leia(nota2)
+//escreva("Digite sua terceira nota: \n")
+//leia(nota3)
+/*
+para(inteiro cont = 1; cont <= 3; cont++) {
+	escreva("Insira a nota ", cont, ": ")
+	leia(nota)
+	totalNotas += nota
+}
+
+

@@ -1,0 +1,23 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class QuintaExercicio {
+
+	public static void main(String[] args) {
+			
+	
+			 @SuppressWarnings("resource")
+				Scanner ler = new Scanner(System.in);
+		     
+			 System.out.println("Digite os Numeros: ");
+		     for(int numeros = 0; numeros >= 2; ++numeros){
+		    	 numeros = ler.nextInt();
+		    
+		    	 System.out.printf("Seu nome é " + numeros);
+		     }
+	}
+
+}
+
+

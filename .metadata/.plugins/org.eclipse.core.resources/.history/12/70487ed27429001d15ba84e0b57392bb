@@ -1,0 +1,79 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class TerceiraExercicio {
+
+
+	  @SuppressWarnings("resource")
+	Scanner ler = new Scanner(System.in);
+
+      String nome;
+      float notas, media;
+      
+      System.out.println("Diga seu nome: ");
+      nome = ler.nextLine();
+      
+      for (notas = 0; notas <= 2; notas ++) {
+      System.out.println("Qual é a sua idade: ");
+      notas = ler.next(notas);
+
+      System.out.printf("Seu nome é " + nome + ", e sua idade é " + notas);
+		
+
+	}
+
+}
+
+
+
+
+
+/*programa {
+funcao inicio() {
+real nota, totalNotas = 0.0, media
+cadeia disciplina, nome
+
+escreva("Digite seu nome: ")
+leia(nome)
+limpa()
+escreva("Digite sua disciplina: ")
+leia(disciplina)
+limpa()
+//escreva("Digite sua primeira nota: \n")
+//leia(nota1)
+//escreva("Digite sua segunda nota: \n")
+//leia(nota2)
+//escreva("Digite sua terceira nota: \n")
+//leia(nota3)
+/*
+para(inteiro cont = 1; cont <= 3; cont++) {
+	escreva("Insira a nota ", cont, ": ")
+	leia(nota)
+	totalNotas += nota
+}
+*/
+/*
+inteiro cont = 1
+enquanto(cont <= 3) {
+	escreva("Insira a nota ", cont, ": ")
+	leia(nota)
+	totalNotas += nota
+	cont++
+}
+
+inteiro cont = 1
+faca {
+	escreva("Insira a nota ", cont, ": ")
+	leia(nota)
+	totalNotas += nota
+	cont++
+} enquanto(cont <= 3)
+
+limpa()
+media = totalNotas/3
+escreva("\nOlá, ", nome, "\n")
+escreva("Na disciplina ", disciplina, " a média é ", media)
+}
+}
+*/
