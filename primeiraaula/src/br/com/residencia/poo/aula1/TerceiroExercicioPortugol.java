@@ -13,11 +13,11 @@ public class TerceiroExercicioPortugol {
 	        String nome;
 	        int idade;
 	        
-	        System.out.println("Diga seu nome: ");
+	        System.out.printf("Diga seu nome: ");
 	        nome = ler.nextLine();
 	  
 	        
-	        System.out.println("Qual é a sua idade: ");
+	        System.out.printf("Qual é a sua idade: ");
 	        idade = ler.nextInt();
 	
 	        System.out.printf("Seu nome é " + nome + ", e sua idade é " + idade);

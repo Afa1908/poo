@@ -21,17 +21,17 @@ public class QuartoExercicioPortugol {
 		System.out.println("Digite sua primeira nota: ");
 		nota1 = ler.nextDouble();
 
-		System.out.println("Digite sua primeira nota: ");
+		System.out.println("Digite sua segunda nota: ");
 		nota2 = ler.nextDouble();
 
-		System.out.println("Digite sua primeira nota: ");
+		System.out.println("Digite sua terceira nota: ");
 		nota3 = ler.nextDouble();
 
 		totalNotas = nota1 + nota2 + nota3;
 		media = totalNotas / 3;
 
-		System.out.printf("\nOlá, " + nome + "\n");
-		System.out.printf("Na disciplina " + disciplina + " a média é " + media);
+		System.out.printf("\nOlá, " + nome + ".\n");
+		System.out.printf("Na disciplina " + disciplina + " , sua média foi " + media);
 	}
 
 }
